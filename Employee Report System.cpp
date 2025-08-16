@@ -268,8 +268,6 @@ void showMenu() {
 				deleteEmployee(); 
 			break;
             case 0:
-                system("cls");
-                printBanner("Thank you for using the system!");
                 return;
             default:
                 cout << "\nInvalid choice. Try again.\n";
